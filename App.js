@@ -1,7 +1,3 @@
-import {
-  StatusBar
-} from 'expo-status-bar';
-
 import React from 'react';
 
 import {
@@ -15,6 +11,7 @@ import {
   Text,
   View,
   TouchableOpacity,
+  StatusBar,
 } from 'react-native';
 
 import {
@@ -140,7 +137,9 @@ export default function App() {
         </TouchableOpacity>
       </View>
 
-      <StatusBar style = "auto" />
+      <StatusBar barStyle="dark-content"
+        hidden={false} backgroundColor="#00BCD4"
+        translucent={true} />
 
     </View>
   );

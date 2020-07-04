@@ -10,9 +10,11 @@ const styles = StyleSheet.create({
         alignItems: "center",
         backgroundColor: '#0000',
         flexWrap: 'wrap',
+        /*
         borderColor: "#0001",
         borderWidth: 2,
         borderRadius: 40,
+        */
     },
  
       buttonContainer: {

@@ -26,6 +26,9 @@ To run your project, navigate to the directory and run one of the following npm 
 
     exp://192.168.2.173:19000
 
+## Build APK
+    Run "sudo expo build"
+
 ## Android credentials ##
     chaudha4@abhishek-Lenovo-ubuntu:~/projects/android/AwesomeProject$ expo fetch:android:keystore
     Configuring credentials for chaudha4 in project RandomQuotes
