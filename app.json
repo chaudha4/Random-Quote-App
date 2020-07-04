@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AwesomeProject",
-    "slug": "AwesomeProject",
+    "name": "RandomQuotes",
+    "slug": "RandomQuotes",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,10 +17,15 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.abhishek.randomquotes",
       "supportsTablet": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "android": {
+      "package": "com.abhishek.randomquotes",
+      "versionCode": 1
+    }    
   }
 }

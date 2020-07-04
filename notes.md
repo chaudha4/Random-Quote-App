@@ -25,3 +25,13 @@ To run your project, navigate to the directory and run one of the following npm 
     Starting Metro Bundler on port 19001.
 
     exp://192.168.2.173:19000
+
+## Android credentials ##
+    chaudha4@abhishek-Lenovo-ubuntu:~/projects/android/AwesomeProject$ expo fetch:android:keystore
+    Configuring credentials for chaudha4 in project RandomQuotes
+    Saving Keystore to /home/chaudha4/projects/android/AwesomeProject/RandomQuotes.jks
+    Keystore credentials
+    Keystore password: c26b426a629e493485566ad5bb245665
+    Key password:      58af1f69a20b4a14afa73b75a627997c
+
+    Path to Keystore:  /home/chaudha4/projects/android/AwesomeProject/RandomQuotes.jks    

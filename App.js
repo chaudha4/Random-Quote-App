@@ -99,7 +99,7 @@ export default function App() {
   const authStyle = {
     padding: 2, fontSize: 15,
     textAlign: 'right', borderRadius: 15, marginBottom: 20,
-    color: "grey", textShadowColor: "black", textShadowRadius: 10,
+    color: "grey", textShadowColor: "black", textShadowRadius: 5,
     textAlign: 'center',
   };  
 
@@ -115,7 +115,7 @@ export default function App() {
       </Text>
 
       <Text style={{...authStyle}} >
-        "{quote.author}"
+        {quote.author ? quote.author : "Anonymous"}
       </Text>
 
       < View style={styles.buttonContainer} >
